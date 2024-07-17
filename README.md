@@ -46,11 +46,8 @@ _See [TODO](#TODO)_
 ## Compile
 
 ```
-mkdir build
-cd build
-cmake ..
-make
-cd ..
+cmake -S . -B build
+cmake --build build
 ./out/C-rypt
 ```
 
